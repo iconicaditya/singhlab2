@@ -1,0 +1,39 @@
+✓ built in 4.93s
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+building server...
+  dist/server/index.js  25.6kb
+⚡ Done in 6ms
+==> Uploading build...
+==> Uploaded in 7.5s. Compression took 4.2s
+==> Build successful 🎉
+==> Setting WEB_CONCURRENCY=1 by default, based on available CPUs in the instance
+==> Deploying...
+==> Running 'npm run start'
+> rest-express@1.0.0 start
+> NODE_ENV=production node dist/server/index.js
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[dotenv@17.2.3] injecting env (0) from dist/server/.env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+file:///opt/render/project/src/dist/server/index.js:663
+    throw new Error(
+          ^
+Error: Could not find the build directory: /opt/render/project/src/dist/dist/public, make sure to build the client first
+    at serveStatic (file:///opt/render/project/src/dist/server/index.js:663:11)
+    at file:///opt/render/project/src/dist/server/index.js:750:5
+Node.js v20.19.6
+==> Exited with status 1
+==> Common ways to troubleshoot your deploy: https://render.com/docs/troubleshooting-deploys
+==> Running 'npm run start'
+> rest-express@1.0.0 start
+> NODE_ENV=production node dist/server/index.js
+[dotenv@17.2.3] injecting env (0) from .env -- tip: ✅ audit secrets and track compliance: https://dotenvx.com/ops
+[dotenv@17.2.3] injecting env (0) from dist/server/.env -- tip: ⚙️  override existing env vars with { override: true }
+file:///opt/render/project/src/dist/server/index.js:663
+    throw new Error(
+          ^
+Error: Could not find the build directory: /opt/render/project/src/dist/dist/public, make sure to build the client first
+    at serveStatic (file:///opt/render/project/src/dist/server/index.js:663:11)
+    at file:///opt/render/project/src/dist/server/index.js:750:5
+Node.js v20.19.6

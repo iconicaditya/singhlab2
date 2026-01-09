@@ -1,0 +1,290 @@
+Create a complete full-stack website with **frontend, backend, and database**, including **professional and attractive animations** for modern UI. The website should be fully responsive and ready to run.
+Framework: MERN fullstack
+#information about website:
+	Singh Lab | Environment
+Research, education, and community action for a sustainable future.
+The Singh Lab is an interdisciplinary research group at Kobe City University of Foreign Studies focused on understanding and addressing environmental challenges through applied research, education, and community engagement.
+	Research Areas:
+Plastics · Waste Management · Climate Change · Sustainable Tourism · Community Sustainability
+	About the Lab
+The Singh Lab conducts interdisciplinary environmental research addressing pressing global and local challenges. Our work spans plastics pollution, waste management systems, climate change adaptation, and sustainable tourism, with a strong emphasis on community engagement and policy relevance.
+We combine academic research with real-world action, working closely with communities, students, policymakers, and civil society to develop practical solutions for sustainability.
+i) Vision
+To integrate research, teaching, and local action to reduce environmental risks and improve environmental and social well-being.
+Ii) Mission
+Produce high-quality, policy-relevant environmental research
+Train students in applied and field-based research methods
+Support evidence-based environmental decision-making
+Engage communities in sustainability initiatives
+Contribute to the United Nations Sustainable Development Goals (SDGs)
+iii) Our Approach
+Our research is grounded in real-world contexts and emphasizes impact beyond academia.
+Mixed Methods: Quantitative data, qualitative interviews, and participatory research
+Field-First Research: Direct engagement with communities and environments
+Policy Relevance: Research designed to inform local and regional policy
+Interdisciplinary Perspective: Linking environmental, social, and economic dimensions
+SDG Alignment: Explicit contribution to global sustainability goals
+
+	Research Areas
+i. Plastics
+We study the production, use, and disposal of plastics, with a focus on reducing environmental leakage and promoting circular economy solutions.
+Key topics include:
+Marine and coastal plastic pollution
+Single-use plastics reduction
+Plastic waste governance
+Community-based monitoring and education
+ii. Waste Management
+Our work examines waste systems from household to municipal levels, identifying opportunities for improved efficiency and sustainability.
+Key topics include:
+Urban waste systems
+Recycling and composting
+Campus waste management
+Behavioral change and waste reduction policies
+iii. Climate Change
+We focus on local-scale climate impacts and community-based responses to climate risks.
+Key topics include:
+Climate adaptation and resilience
+Risk perception and communication
+Urban and community-level climate strategies
+Education and awareness initiatives
+
+iv. Sustainable Tourism
+We explore pathways for tourism that support environmental protection and community well-being.
+Key topics include:
+Environmental impacts of tourism
+Community-based tourism models
+Sustainable tourism policy
+Destination management and planning
+
+Add more research types
+
+	Projects
+Citizen Chat Café:
+A community dialogue initiative that brings together residents, students, and experts to discuss environmental issues and co-create solutions.
+Campus Compost Program:
+A practical initiative to reduce organic waste on campus while engaging students in hands-on sustainability practices.
+
+Marine Litter Education:
+Educational programs focused on marine plastic pollution, combining field surveys, workshops, and public outreach.
+
+	Publications
+The Singh Lab produces academic and applied research outputs, including:
+Peer-reviewed journal articles
+Policy briefs
+Research reports
+Conference papers and presentations
+Selected publications are available through the Publications section of this website.
+Teaching & Student Engagement
+The lab actively integrates research with teaching and student training.
+Opportunities include:
+Undergraduate and graduate research projects
+Fieldwork training
+Methods workshops
+Supervised theses and dissertations
+Students are encouraged to engage in real-world sustainability challenges through lab projects.
+Community Engagement
+Community engagement is central to our work. We collaborate with:
+Local communities
+Schools and universities
+NGOs and civil society organizations
+Local governments and policymakers
+Our engagement activities include workshops, public talks, collaborative research, and educational programs.
+
+Singh Lab | Environment
+Kobe City University of Foreign Studies
+
+For research collaboration, student opportunities, or community partnerships, please contact us via email or the contact form on this website.
+
+
+A. Header:
+i) Top bar (black background):
+	Left: logo image + text “SINGH LAB | ENVIRONMENT”
+	Center: text “Research, education, and community action for a sustainable future.” with a smooth typewriter animation that types out the entire text, pauses briefly, deletes it, then repeats infinitely at a steady, readable speed. The typing effect must not cause layout shifts (fixed width container).
+	Right: social icons (Facebook, Twitter, LinkedIn, YouTube) in appropriate colors.
+ii) Second bar (blue background):
+	Right side Navigation links: Home, About, our team, Research, Publications, Projects, Resources, Activities, Collaborators, Contact
+Additional:
+Smooth scroll effect when clicking nav links that scroll to corresponding page sections.
+White text, clean modern font, hover effects on links (e.g., color change or underline animation), fully responsive design.
+Sticky header with smooth transition when scrolling.
+B. Hero Section: 
+Headline, subheading, CTA button, background image: multiple images changing every 3 after sec rounding repeat.
+Animate text and CTA button with fade-in or slide-in on page load.
+
+C. About Section: 
+Brief description, mission/vision, focus areas, optional image.
+Animate images or text with fade-in or zoom-in effects as the user scrolls.
+Background: black color, smoke animation with mouse pointer
+
+D. Research themes Section:
+Create a dark-themed “Research Themes” webpage exactly matching the reference image.
+•	Full-width section with blurred nature background and dark overlay.
+•	Centered blue heading “Research Themes” with a short gray description below.
+•	3×2 grid of cards (responsive).
+•	Each card:
+o	Black background, rounded corners, thin border, soft shadow
+o	Circular image at top center
+o	White bold title + 3 light-gray bullet points
+Create a modern, dark-themed Research Themes webpage that visually matches the provided reference design exactly.
+Overall Layout
+•	Full-width section with a blurred nature background image (plants/soil/hands planting).
+•	Apply a dark overlay (rgba black ~0.65) on top of the background for readability.
+•	Content centered horizontally with generous vertical padding.
+Header Section
+•	Large bold heading text at the top center:
+“Research Themes”
+•	Heading color: bright blue (#2f6fff or similar)
+•	Font: modern sans-serif (Inter / Poppins / Roboto).
+•	Below the heading, add a short descriptive paragraph, center-aligned, light gray text.
+Card Grid Layout
+•	Use a 2-row grid (3 cards per row) on desktop.
+•	Cards should be evenly spaced with consistent margins.
+•	Responsive behavior:
+o	Tablet: 2 cards per row
+o	Mobile: 1 card per row
+Card Design
+•	Card background: pure black or very dark gray
+•	Rounded corners (border-radius: ~14px)
+•	Thin subtle border (1px, bluish gray)
+•	Soft shadow for depth
+•	Padding: spacious and balanced
+Card Content Structure
+Each card contains:
+1.	Circular image at the top center
+o	Image cropped perfectly round
+o	Medium size (approx 90–100px)
+2.	Card Title
+o	White, bold, centered
+o	Medium-large font size
+3.	Bullet List
+o	3 bullet points
+o	Light gray text
+o	Clean spacing
+Card Titles & Content
+Plastics
+•	Marine litter education
+•	Microplastics monitoring
+•	Plastic-climate nexus
+Waste Management
+•	Campus compost & LCA
+•	Open burning mitigation
+•	Municipal solid waste planning
+Climate Change
+•	Heat risk perception
+•	Mitigation co-benefits
+•	Community resilience
+Renewable Energy & Tech
+•	Solar adoption & behavior
+•	Energy efficiency research
+•	Community energy systems
+Social & Urban Systems
+•	Sustainable urban planning
+•	Environmental justice
+•	Public health & resilience
+Others
+•	Fair trade impacts
+•	Biodiversity & plastics
+•	Policy design & SDGs
+Hover & Highlight Effects
+•	On hover:
+o	Card slightly scales up
+o	Border glow appears
+•	“Others” card
+o	Always highlighted with a soft orange glowing border
+o	Slightly brighter shadow than other cards
+
+E. Our team section : add contents as suitable more modern and profeshional with animations
+F. Research section: add contents add suitable with box  card and animatio with image, as suitable as you know
+G. Publication section: add contents add suitabl  and animatio as suitable as you know with 
+H. Project
+I. Resources 
+J. Gallery: 
+Images/projects with titles and optional filters.
+   - Animate project cards with flip, zoom, or fade-in on scroll.
+K. Contact Section: Form with fields: name, email, subject, message.
+    - Animate form fields on focus.
+    - Animate submit button on hover.
+
+L. News & Updates Section
+Stay informed about:
+New research and publications
+Ongoing projects
+Events and workshops
+Media coverage and announcements
+
+M. collaborators section: Add as suitable with modern animation and profeshional
+
+N. Footer: 
+Quick links, social media icons, map , copyright, terms/privacy.
+    - Animate social icons on hover.
+
+- Include **smooth scrolling between sections**.
+- All animations must be **subtle, professional, and performance-friendly**.
+- Use twlind CSS animations, transitions, or libraries like **GSAP or Animate.css**.
+
+---
+
+
+Admin at button or footer
+
+Create a **full-stack admin dashboard** for "Singh Lab | Environment" with login, account settings, activities, CRUD, and professional UI/UX. Requirements:
+
+1. **Tech Stack**
+- Frontend: React.js with Tailwind CSS for styling, Framer Motion / Animate.css for animations.
+- Backend: Node.js + Express.js.
+- Database: MongoDB (Mongoose schemas).
+- Authentication: JWT-based admin login.
+- Fully responsive, modern design with subtle animations (fade-in, slide, hover).
+
+2. **Admin Features**
+- **Login Page**
+  - Fields: email, password
+  - JWT authentication
+  - Animate fields on focus, button hover effects
+
+- **Dashboard Layout**
+  - Sidebar navigation: Dashboard Home, Account Settings, Activities, Users, Messages, Collaborators, Research, Projects, Publications, Team, Settings, Logout
+  - Main content area: tables/lists/cards for CRUD actions
+  - **CRUD Functionality**:
+    - **Users**: name, email, role (admin/researcher/student), password
+    - **Messages**: senderName, email, subject, message content, date
+    - **Collaborators**: name, logo/photo, website, description
+    - **Research**: title, description, bullets[], image
+    - **Projects**: title, description, image
+    - **Publications**: title, authors[], year, pdf/link
+    - **Team Members**: name, role, photo, socialLinks[]
+  - **Account Settings**: update admin name, email, password, and upload profile photo
+  - **Activities/Logs**: track admin actions like add/edit/delete for all sections, display in table with date, action, and target
+  - Add/Edit/Delete modals with slide/fade animations
+  - Table rows highlight on hover
+  - Fully responsive design
+
+3. **Authentication & Security**
+- JWT token stored in localStorage
+- Protected routes for all dashboard pages
+- Redirect to login if not authenticated
+- Logout functionality
+
+4. **Animations & UI**
+- Subtle fade-in for tables/cards on load
+- Slide-in modals for Add/Edit forms
+- Hover effects on buttons, table rows, sidebar links
+- Modern, clean dashboard design
+- Smooth responsive experience
+
+5. **Database Schema**
+- Users: name, email, role, hashed password, profilePhoto
+- Messages: senderName, email, subject, message, date
+- Collaborators: name, logo/photo, website, description
+- Research: title, description, bullets[], image
+- Projects: title, description, image
+- Publications: title, authors[], year, pdf/link
+- Team: name, role, photo, socialLinks[]
+- Activities: adminId, actionType (add/edit/delete/update), targetCollection, targetId, timestamp
+
+6. **Extras**
+- Include sample data for all sections
+- Include README.md with instructions to run frontend and backend
+- Fully functional CRUD with responsive UI, professional animations, account settings, photo upload, and activity tracking
+
+Generate a **ready-to-run full-stack admin dashboard** with login, account settings (admin photo upload), activities/logs, CRUD, responsive design, and subtle professional animations for managing Users, Messages, Collaborators, Research, Projects, Publications, and Team.

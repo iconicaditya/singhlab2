@@ -1,0 +1,69 @@
+STOP ALL GUESSING AND REPEATED FIXES.
+
+This project is Vite + React 18 SPA with Wouter, deployed on Vercel.
+Express only handles /api/*; it does NOT control frontend routing.
+
+THE ISSUE:
+- /login fails on hard refresh or direct access in production.
+- Root cause: Wouter <Switch> is deprecated in latest versions. Hard refresh breaks route matching.
+- Current auth/DataContext code does NOT block /login.
+
+FIX STEPS (MUST BE APPLIED EXACTLY):
+
+1) REPLACE <Switch> IN App.tsx
+- Open client/src/App.tsx
+- Find:
+  function Router() {
+    return (
+      <Switch>
+        ...
+      </Switch>
+    );
+  }
+- Replace <Switch> wrapper with fragment <>:
+  function Router() {
+    return (
+      <>
+        <Route path="/" component={Home} />
+        <Route path="/login" component={Login} />
+        <Route path="/admin/dashboard" component={AdminDashboard} />
+        <Route path="/research" component={Research} />
+        <Route path="/project/:id" component={ProjectDetail} />
+        <Route path="/activities" component={AllActivities} />
+        <Route path="/activity/:id" component={ActivitiesDetails} />
+        <Route component={NotFound} />
+      </>
+    );
+  }
+
+2) VERIFY Router MOUNT
+- client/src/main.tsx must wrap App with <Router>:
+  createRoot(document.getElementById("root")!).render(
+    <Router>
+      <App />
+    </Router>
+  );
+
+3) ENSURE VERCEL SPA REWRITE
+- vercel.json must include:
+{
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/$1" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
+
+4) REMOVE ANY INVALID EXPRESS / SPA FALLBACKS
+- Delete or ignore server/static.ts routes for SPA
+- Remove cache headers for index.html
+- No auth redirects should fire before router hydration
+
+5) REDEPLOY AND TEST
+- Clear Vercel build cache
+- Deploy fresh
+- Confirm /login works on:
+  - Direct URL access
+  - Hard refresh
+- If it still fails, STOP and report the **exact file and line blocking /login**, do NOT apply previous fixes again.
+
+THIS FIX WILL 100% SOLVE THE LOGIN ROUTE ISSUE.

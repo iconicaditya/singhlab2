@@ -1,0 +1,31 @@
+In research.tsx, show the category on each research card. The category should not change on hover (no hover effects on category text).
+
+In viewresearch.tsx, the abstract is not displaying even though it exists in the Admin panel. Fix the data mapping so it shows correctly.
+
+The date is not showing on the frontend even after being entered in Admin. Ensure the date is fetched, mapped correctly, and displayed properly.
+
+Please correct the code without breaking existing UI and provide updated research.tsx and In In In research.tsx, show the category on each research card. The category should not change on hover (no hover effects on category text).
+
+In viewresearch.tsx, the abstract is not displaying even though it exists in the Admin panel. Fix the data mapping so it shows correctly.
+
+The date is not showing on the frontend even after being entered in Admin. Ensure the date is fetched, mapped correctly, and displayed properly.
+
+Please correct the code without breaking existing UI and provide updated research.tsx and viewresearch.tsx., show the category on each research card. The category should not change on hover (no hover effects on category text).
+
+In In research.tsx, show the category on each research card. The category should not change on hover (no hover effects on category text).
+
+In viewresearch.tsx, the abstract is not displaying even though it exists in the Admin panel. Fix the data mapping so it shows correctly.
+
+The date is not showing on the frontend even after being entered in Admin. Ensure the date is fetched, mapped correctly, and displayed properly.
+
+Please correct the code without breaking existing UI and provide updated research.tsx and viewresearch.tsx., the abstract is not displaying even though it exists in the Admin panel. Fix the data mapping so it shows correctly.
+
+The date is not showing on the frontend even after being entered in Admin. Ensure the date is fetched, mapped correctly, and displayed properly.
+
+Please correct the code without breaking existing UI and provide updated research.tsx and viewresearch.tsx., show the category on each research card. The category should not change on hover (no hover effects on category text).
+
+In viewresearch.tsx, the abstract is not displaying even though it exists in the Admin panel. Fix the data mapping so it shows correctly.
+
+The date is not showing on the frontend even after being entered in Admin. Ensure the date is fetched, mapped correctly, and displayed properly.
+
+Please correct the code without breaking existing UI and provide updated research.tsx and viewresearch.tsx.

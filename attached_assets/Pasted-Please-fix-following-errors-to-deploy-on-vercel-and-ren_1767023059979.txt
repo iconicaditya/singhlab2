@@ -1,0 +1,69 @@
+Please fix following errors to deploy on vercel and render then i will push the code into github: 
+
+in render getting this error:
+
+==> Cloning from https://github.com/iconicaditya/singhlab2
+==> Checking out commit c8809203dd35e4295bab8190495825a9ee44f865 in branch main
+==> Requesting Node.js version 18.x
+==> Using Node.js version 18.20.8 via /opt/render/project/src/package.json
+==> Node.js version 18.20.8 has reached end-of-life.
+==> Upgrade to a maintained version to receive important security updates.
+==> Information on maintained Node.js versions: https://nodejs.org/en/about/previous-releases
+==> Docs on specifying a Node.js version: https://render.com/docs/node-version
+==> Running build command 'npm install; npm run build'...
+added 489 packages, and audited 490 packages in 13s
+46 packages are looking for funding
+  run `npm fund` for details
+6 vulnerabilities (2 low, 4 moderate)
+To address issues that do not require attention, run:
+  npm audit fix
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+Run `npm audit` for details.
+> rest-express@1.0.0 build
+> tsx script/build.ts
+building client...
+vite v7.1.12 building for production...
+transforming...
+✓ 2284 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/public/index.html                                                    1.52 kB │ gzip:   0.62 kB
+../dist/public/assets/detailed_environmental_data_analysis-BMbREzrc.png  1,629.92 kB
+../dist/public/assets/index-ChSB3zP5.css                                   133.68 kB │ gzip:  21.13 kB
+../dist/public/assets/index-CoCDW5tj.js                                  1,167.61 kB │ gzip: 307.10 kB
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 7.14s
+building server...
+✘ [ERROR] Cannot use "external" without "bundle"
+1 error
+Error: Build failed with 1 error:
+error: Cannot use "external" without "bundle"
+    at failureErrorWithLog (/opt/render/project/src/node_modules/esbuild/lib/main.js:1467:15)
+    at /opt/render/project/src/node_modules/esbuild/lib/main.js:926:25
+    at /opt/render/project/src/node_modules/esbuild/lib/main.js:878:52
+    at buildResponseToResult (/opt/render/project/src/node_modules/esbuild/lib/main.js:924:7)
+    at /opt/render/project/src/node_modules/esbuild/lib/main.js:951:16
+    at responseCallbacks.<computed> (/opt/render/project/src/node_modules/esbuild/lib/main.js:603:9)
+    at handleIncomingPacket (/opt/render/project/src/node_modules/esbuild/lib/main.js:658:12)
+    at Socket.readFromStdout (/opt/render/project/src/node_modules/esbuild/lib/main.js:581:7)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12) {
+  errors: [Getter/Setter],
+  warnings: [Getter/Setter]
+}
+==> Build failed 😞
+==> Common ways to troubleshoot your deploy: https://render.com/docs/troubleshooting-deploys
+
+
+
+
+in vercel getting this error:
+
+404: NOT_FOUND
+Code: NOT_FOUND
+ID: bom1::9mgs7-1767020145289-6c376af1beaf
+

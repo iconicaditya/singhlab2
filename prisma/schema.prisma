@@ -1,0 +1,103 @@
+// Prisma schema for Research Management System
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Project {
+  id              Int      @id @default(autoincrement())
+  title           String
+  category        String
+  description     String
+  fullDescription String   @db.Text
+  tags            String[]
+  image           String   @db.Text
+  status          String
+  date            String
+  impact          String   @db.Text
+  paperDetails    Json?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  @@map("projects")
+}
+
+model TeamMember {
+  id        Int      @id @default(autoincrement())
+  name      String
+  role      String
+  image     String   @db.Text
+  bio       String   @db.Text
+  social    Json
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("team_members")
+}
+
+model Publication {
+  id        Int      @id @default(autoincrement())
+  title     String
+  journal   String
+  year      String
+  authors   String[]
+  type      String
+  tags      String[]
+  abstract  String   @db.Text
+  doi       String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("publications")
+}
+
+model GalleryItem {
+  id        Int      @id @default(autoincrement())
+  src       String   @db.Text
+  category  String
+  title     String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("gallery_items")
+}
+
+model Message {
+  id        Int      @id @default(autoincrement())
+  sender    String
+  email     String
+  subject   String
+  message   String   @db.Text
+  date      String
+  status    String
+  category  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("messages")
+}
+
+model ResearchTopic {
+  id                    Int      @id @default(autoincrement())
+  title                 String
+  category              String
+  image                 String   @db.Text
+  description           String
+  fullDescription       String   @db.Text
+  authors               Json
+  doi                   String
+  journal               String
+  date                  String
+  sections              Json
+  relatedPublicationIds Int[]
+  references            String[]
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @updatedAt
+
+  @@map("research_topics")
+}
